@@ -29,7 +29,8 @@ int main()
 
     while( !in.eof() )
     {
-        in >> current;
+        // reading file and assigning character-by-character into current each loop
+        in >> current; 
             if ( current >='A' && current <='Z' || current >='a' && current <='z')
             {
                 if ( first == ' ') // checks if first is empty
@@ -62,6 +63,9 @@ first = v.at(0);
 
 get last character from vector v
 last = v [ v.size() -1 ];
+
+sample output: 100% it is true! --> 1**!
+
 
 */
 
